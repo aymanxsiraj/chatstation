@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ProfileActivity"
+    tools:showIn="@layout/activity_profile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/account_information" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_baseline_phone_24"
+                    android:drawableEnd="@drawable/ic_baseline_edit_24"
+                    android:drawablePadding="5dp"
+                    android:enabled="false"
+                    android:fontFamily="@font/roboto_medium"
+                    android:hint="@string/phone_number"
+                    android:textColorHint="#757575" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_baseline_person_24"
+                    android:drawableEnd="@drawable/ic_baseline_edit_24"
+                    android:drawablePadding="5dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:hint="@string/user_name"
+                    android:textColorHint="#757575"
+                    tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/bio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_baseline_info_24"
+                    android:drawableEnd="@drawable/ic_baseline_edit_24"
+                    android:drawablePadding="5dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:hint="@string/bio"
+                    android:textColorHint="#757575"
+                    tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/save_information" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/save_info"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:drawableEnd="@drawable/ic_baseline_login_24"
+                    android:fontFamily="@font/roboto_medium"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:text="@string/save"
+                    android:textSize="14sp"
+                    app:iconGravity="textStart"
+                    app:iconPadding="10dp"
+                    app:cornerRadius="2dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/go_to_home"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:drawableEnd="@drawable/ic_baseline_login_24"
+                    android:fontFamily="@font/roboto_medium"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:text="@string/go_to_your_account"
+                    android:textSize="14sp"
+                    android:visibility="invisible"
+                    app:cornerRadius="2dp"
+                    app:iconGravity="textStart"
+                    app:iconPadding="10dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

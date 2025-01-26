@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "301259677593",
+    "project_id": "chat-station-8d5a0",
+    "storage_bucket": "chat-station-8d5a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301259677593:android:55ac31381c42d56a56bd08",
+        "android_client_info": {
+          "package_name": "com.example.chatstation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301259677593-eh2u4erh1hivif4mktpcbep4r4kskd4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1vkv5o8mtLHg3NbZSPa1xN8_CnW2cnYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301259677593-eh2u4erh1hivif4mktpcbep4r4kskd4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

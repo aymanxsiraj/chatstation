@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_user.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/activity_user.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/find_new_user_layout.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/find_new_user_layout.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/message_container.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/message_container.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_scrolling.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/content_scrolling.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/user_adapter_items.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/user_adapter_items.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_slideshow.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_profile.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sign_up.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_gallery.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/app_bar_home.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/app_bar_home.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_update_user_bio.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/activity_update_user_bio.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_update_user_name.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/activity_update_user_name.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_img.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/activity_img.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_verify.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/activity_verify.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/edit_scrolling.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/edit_scrolling.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/chat_tool_bar.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/chat_tool_bar.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_home.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/content_home.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_user_profile.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chat.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_edit.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/activity_edit.xml"
+    },
+    {
+        "merged": "/Users/ayman_siraj/Desktop/ChatStation/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/nav_header_home.xml",
+        "source": "/Users/ayman_siraj/Desktop/ChatStation/app/src/main/res/layout/nav_header_home.xml"
+    }
+]

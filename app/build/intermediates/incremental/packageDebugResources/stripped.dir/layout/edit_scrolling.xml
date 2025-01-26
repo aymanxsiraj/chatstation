@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ProfileActivity"
+    tools:showIn="@layout/activity_edit">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/account_information" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginStart="34dp"
+            />
+
+            <TextView
+                android:id="@+id/user_phone_number_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:text="@string/phone_number"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="10dp"
+                app:drawableStartCompat="@drawable/ic_baseline_phone_24"
+                app:drawableEndCompat="@drawable/ic_baseline_edit_24" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginStart="34dp"
+            />
+
+            <TextView
+                android:id="@+id/user_name_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:text="@string/user_name"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="10dp"
+                app:drawableStartCompat="@drawable/ic_baseline_person_24"
+                app:drawableEndCompat="@drawable/ic_baseline_edit_24" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bio"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginStart="34dp"
+            />
+
+            <TextView
+                android:id="@+id/user_bio_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:text="@string/bio"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                app:drawableStartCompat="@drawable/ic_baseline_info_24"
+                app:drawableEndCompat="@drawable/ic_baseline_edit_24" />
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
